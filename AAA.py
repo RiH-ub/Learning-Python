@@ -25,4 +25,4 @@ elif cat == "titi" or cat == "Titi":
   print("Movilidad: 70")
 
 print("-----------------------------")
-print("")
+print("cambios")
