@@ -1,10 +1,32 @@
-print("Hola ")
+print("Escoge la historia")
 
-print("Hola como estas tu")
-num1 = float(input("Introduce tu nombre: "))
-num2 = float(input("Introduce tu apellido: "))
-resul = num1 + num2 / 1.0
-print(resul)
+print("Titi va al espacio")
 
-print("Hola")
-print("Resultados finales") 
+user = input("escoge entre si o no: ")
+
+si = "Si es Si"
+no = "no es no"
+
+if user != user:
+    print("correcto")
+
+elif user != user:
+    print("No correct")
+
+else:
+    print("no correctoooooo")
+
+
+
+
+print("Cuantos años tienes")
+
+rpta = input("introduce tu edad: ")
+
+
+
+if rpta == si:
+    print("Un niño")
+
+else:
+    print("Anciano")
