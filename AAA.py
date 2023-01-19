@@ -1,32 +1,27 @@
-print("Escoge la historia")
+print("Bienvenidos a peleas de Gatos")
+print("-----------------------------")
 
-print("Titi va al espacio")
+name = input("Introduce tu nombre: ")
+print("-----------------------------")
+print(f"¡Bienvenido al juego, {name}!")
+print("ᕙ⁠(⁠⇀⁠‸⁠↼⁠‶⁠)⁠ᕗ")
+print("-----------------------------")
 
-user = input("escoge entre si o no: ")
+print("¡Escoge tu gato!")
+cat = input("Polar o Titi: ")
+print("××××××××××××××××××")
 
-si = "Si es Si"
-no = "no es no"
+if cat == "polar" or cat == "Polar":
+  print("¡Escogiste a Polar!")
+  print("Vida: 70")
+  print("Daño: 300")
+  print("Movilidad: 200")
+  op = input("polar inicia: ")
 
-if user != user:
-    print("correcto")
+elif cat == "titi" or cat == "Titi":
+  print("¡Escogiste a Titi!")
+  print("Vida: 100+")
+  print("Daño: 210+")
+  print("Movilidad: 70")
 
-elif user != user:
-    print("No correct")
-
-else:
-    print("no correctoooooo")
-
-
-
-
-print("Cuantos años tienes")
-
-rpta = input("introduce tu edad: ")
-
-
-
-if rpta == si:
-    print("Un niño")
-
-else:
-    print("Anciano")
+print("-----------------------------")
