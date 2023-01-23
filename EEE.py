@@ -1,27 +1,49 @@
-while True:
+pol = str()
+tit = str()
 
-  cat = input("Polar o Titi: ")
+
+while True:
+  print("A Polar")
+  print("B Titi")
+  cat = input()
   print("××××××××××××××××××")
 
-  if (cat == "polar" or cat == "Polar"): break
+  if cat == "a":
     print("¡Escogiste a Polar!")
     print("Vida: 70")
     print("Daño: 300")
     print("Movilidad: 200")
-    print("----------------")
-    print("Polar se encontraba caminando tranquilamente por el bosque. hasta que en un momento se encontro con Titi.")
-    print("Que es lo que haras?")
-     op1 = int(input("A Haras daño /n B Invocas a las gatas /n Mueres"))
-     op2 
+    print("¿Que haras?: \n A. Mordida \n B. Arañazo")
+
+    while True:
+      pol = input()
+      
+      if not (pol == "a" or pol == "b"):
+        print("Entrada no valida")
+      if (pol == "a" or pol == "B"): break
+
+    if pol == "a":
+      print("Polar uso mordida")
+
+    elif pol == "b":
+      print("Polar uso arañazo")
     
+  elif cat == "b":
+    print("¡Escogiste a Titi!")
+    print("Vida: 100")
+    print("Daño: 210")
+    print("Movilidad: 70")
+    print("¿Que haras?: \n A. Llorar \n B. Escapar")
 
-  
+    while True:
+      tit = input()
+     
+      if not (tit == "a" or tit == "B"):
+        print("Entrada no valida")
+      if (tit == "a" or tit == "B"): break
 
-elif cat == "titi" or cat == "Titi":
-  print("¡Escogiste a Titi!")
-  print("Vida: 100+")
-  print("Daño: 210+")
-  print("Movilidad: 70")
+    if tit == "a":
+      print("Titi se pone a llorar")
 
-print("-----------------------------")
-print("cambios")  
+    elif tit == "b":
+      print("Titi escapa muy lejos")
