@@ -10,8 +10,8 @@ dato = input("Introduzca su contraseña: ")
 
 
 if ingreso == dato.lower():
-	print("Contraseña correcta...!Ingresaste al Sistema!")#Si es correcto 
+	print("Contraseña correcta...!Ingresaste al Sistema!")#Si, es correcto 
 else:
-    print("Contraseña incorrecta...!Acceso denegado!")#Si es incorrecto
+    print("Contraseña incorrecta...!Acceso denegado!")#No, es incorrecto
 
 time.sleep(10)		
