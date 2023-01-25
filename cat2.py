@@ -6,7 +6,7 @@ while True:
   print("A Polar")
   print("B Titi")
   cat = input()
-  print("××××××××××××××××××")
+  print("-------------------")
 
   if cat == "a":
     print("¡Escogiste a Polar!")
