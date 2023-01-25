@@ -1,4 +1,4 @@
-# hola
+# Hola amigues 
 pol = str()
 tit = str()
 
