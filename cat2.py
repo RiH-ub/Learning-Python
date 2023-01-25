@@ -1,5 +1,3 @@
-# Hola amigues 
-# hola otra vez 
 pol = str()
 tit = str()
 
@@ -22,7 +20,7 @@ while True:
       
       if not (pol == "a" or pol == "b"):
         print("Entrada no valida")
-      if (pol == "a" or pol == "B"): break
+      if (pol == "a" or pol == "b"): break
 
     if pol == "a":
       print("Polar uso mordida")
@@ -40,9 +38,9 @@ while True:
     while True:
       tit = input()
      
-      if not (tit == "a" or tit == "B"):
+      if not (tit == "a" or tit == "b"):
         print("Entrada no valida")
-      if (tit == "a" or tit == "B"): break
+      if (tit == "a" or tit == "b"): break
 
     if tit == "a":
       print("Titi se pone a llorar")
