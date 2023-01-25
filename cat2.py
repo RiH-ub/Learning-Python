@@ -1,4 +1,4 @@
-# Comentarios adicionales
+# Nuevo
 pol = str()
 tit = str()
 
