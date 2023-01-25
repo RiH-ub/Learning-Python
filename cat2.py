@@ -1,4 +1,4 @@
-# Nuevo por ahora
+# hola
 pol = str()
 tit = str()
 
