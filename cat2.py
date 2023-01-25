@@ -1,3 +1,4 @@
+# Comentarios adicionales
 pol = str()
 tit = str()
 
@@ -47,3 +48,4 @@ while True:
 
     elif tit == "b":
       print("Titi escapa muy lejos")
+
