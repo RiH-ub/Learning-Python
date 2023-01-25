@@ -1,4 +1,4 @@
-print("Bienvenidos a peleas de Gatos")
+("Bienvenidos a peleas de Gatos")
 print("-----------------------------")
 
 name = input("Introduce tu nombre: ")
@@ -25,4 +25,4 @@ elif cat == "titi" or cat == "Titi":
   print("Movilidad: 70")
 
 print("-----------------------------")
-print("cambios")
+print("Hola")
