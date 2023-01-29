@@ -47,4 +47,4 @@ while True:
 
     elif tit == "b":
       print("Titi escapa muy lejos")
-
+      
