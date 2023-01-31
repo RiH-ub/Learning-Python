@@ -180,7 +180,7 @@ while True:
   elif alm=="b":
 
    mnto = 5.00
-
+ 
    imp = mnto*igv
 
    totalfac = mnto+imp
