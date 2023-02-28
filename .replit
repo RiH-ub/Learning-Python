@@ -1,4 +1,4 @@
-run = "python prácticas/A.py"
+run = "python Practice/A.py"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"
