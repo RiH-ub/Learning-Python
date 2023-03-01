@@ -20,4 +20,4 @@ def suma(a):
   for i in range (a,13+a):
     print(f"{i} + {a} = {i+a}")
 
-suma(7)
+suma()
