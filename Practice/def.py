@@ -1,4 +1,4 @@
-"""
+
 # 1
 def suma(a, b):
     return a + b
@@ -43,7 +43,7 @@ def mi_funcion():
 
 mi_funcion()
 
-"""
+
 # seis
 def obtener_nombre():
     nombre = input("Por favor, introduce tu nombre: ")
