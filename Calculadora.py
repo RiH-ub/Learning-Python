@@ -40,4 +40,3 @@ while True:
   else:
     print("Entrada no válida")
 
-}
